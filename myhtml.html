@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cool Dark UI Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mystyle.css">
+  
+  <style>
+    /* === Global Styles === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9ff;
+      color: #000;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    /* === Header === */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #fff;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .btn-small {
+      background-color: #4f46e5;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+    }
+
+    /* === Hero Section === */
+    .hero {
+      background-color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    .btn-primary {
+      background-color: #4f46e5;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 10px;
+      border: none;
+      margin-top: 20px;
+    }
+
+    /* === Video Section === */
+    .video-section img {
+      width: 300px;
+      max-width: 100%;
+    }
+
+    /* === Stats Section === */
+    .stats {
+      background-color: #e0e7ff;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 20px;
+      border-radius: 12px;
+      margin: 40px auto;
+      max-width: 800px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat h2 {
+      font-size: 28px;
+      color: #4f46e5;
+    }
+
+    /* === Testimonials === */
+    .testimonials {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .testimonial {
+      background-color: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+    }
+
+    /* === Call to Action === */
+    .cta img {
+      width: 90%;
+      max-width: 500px;
+    }
+
+    /* === Contact Section === */
+    .contact h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+      gap: 12px;
+    }
+
+    .contact input,
+    .contact textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .contact button {
+      background-color: #4f46e5;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    /* === Footer === */
+    footer {
+      background-color: #f1f5f9;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">LOGO</div>
+    <button class="btn-small">Start</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Cool Dark UI Template for <br> Webflow Agencies!</h1>
+    <button class="btn-primary">Get Started</button>
+  </section>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <h2>See It in Action</h2>
+    <p>Watch the demo video right now</p>
+    <button class="btn-primary">Play Video</button><br><br>
+    <img src="https://via.placeholder.com/300x180" alt="Video Demo" />
+  </section>
+
+  <!-- Stats Section -->
+  <div class="stats">
+    <div class="stat">
+      <h2>50K</h2>
+      <p>Users</p>
+    </div>
+    <div class="stat">
+      <h2>2M+</h2>
+      <p>Views</p>
+    </div>
+    <div class="stat">
+      <h2>95%</h2>
+      <p>Satisfaction</p>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="testimonial">
+      <p>"Super UI components!"</p>
+      <strong>- Sarah Thompson</strong>
+    </div>
+    <div class="testimonial">
+      <p>"Looks clean and modern."</p>
+      <strong>- Leonardo Jasper</strong>
+    </div>
+    <div class="testimonial">
+      <p>"Definitely increased our engagement."</p>
+      <strong>- Lorrine Simpson</strong>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <h2>Ready to focus better</h2>
+    <button class="btn-primary">Try Demo</button><br><br>
+    <img src="https://via.placeholder.com/500x250" alt="Product Demo" />
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Let's Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo">LOGO</div>
+    <p>&copy; 2025 Cool Dark UI Template</p>
+  </footer>
+</body>
+
+</html>
